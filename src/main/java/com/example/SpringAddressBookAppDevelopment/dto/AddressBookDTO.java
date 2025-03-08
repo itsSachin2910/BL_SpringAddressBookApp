@@ -1,17 +1,12 @@
 package com.example.SpringAddressBookAppDevelopment.dto;
 
-import lombok.*;
+import lombok.Data;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Data
 public class AddressBookDTO {
     private String name;
     private String email;
     private String phoneNumber;
 
-    public String getName() { return name; }
-    public String getEmail() { return email; }
-    public String getPhoneNumber() { return phoneNumber; }
+
 }
